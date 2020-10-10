@@ -17,3 +17,6 @@ test:
 
 check:
 	cargo check $(OPTION)
+
+build:
+	cargo build
