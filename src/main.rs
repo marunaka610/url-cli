@@ -62,7 +62,7 @@ fn main() -> Result<()> {
 fn decode(input: &str) -> Result<String>  {
     let decoded = percent_decode(input.as_bytes()).decode_utf8()?;
     Ok(decoded.to_string())
-}
+} 
 
 #[cfg(test)]
 mod tests {
